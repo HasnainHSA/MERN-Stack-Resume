@@ -68,3 +68,12 @@ h3{
 }
 
 
+/* Summary Styles */
+
+.summary p{
+    margin-bottom: 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+
