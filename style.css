@@ -137,3 +137,14 @@ h3{
     border-bottom: 1px solid #F97213;
 }
 
+
+/* Projects Styles */
+
+.pro-points{
+    margin: 20px;
+}
+
+.pro-points li{
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
