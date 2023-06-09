@@ -121,3 +121,19 @@ h3{
 }
 
 
+/* Skills Styles */
+
+.tech-skills{
+    margin-bottom: 30px;
+}
+
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.skills p{
+    border-bottom: 1px solid #F97213;
+}
+
