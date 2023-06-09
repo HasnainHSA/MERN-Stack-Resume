@@ -42,3 +42,29 @@ h3{
     font-size: 25px;
 }
 
+/* Contact Styles */
+
+.contact-details{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.con-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con-inner i{
+    color: #F97213;
+    padding: 10px;
+   
+}
+
+.con-inner p{
+    color: #0D3585;
+}
+
+
