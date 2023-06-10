@@ -166,4 +166,56 @@ h3{
 }
 
 
+/* CERTIFICATION & LEARNING */
+.certi-side{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Certificate-one{
+    width: 40%;
+    margin: 10px;
+    padding: 15px 30px;
+}
 
+.Certificate-two{
+    width: 40%;
+    margin: 10px;
+    padding: 15px 30px;
+}
+
+.Certificate-one ul li{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.Certificate-two ul li{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.Certificate-two ul h6{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.certi-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.certi-inner h5{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.certi-img{
+    width: 100px;
+    transition: 0.3s;
+}
+
+.certi-img:hover{
+    transform: scale(1.3);
+}
