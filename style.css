@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
 
 /* reuseable styles */
-h3{
+h3 {
     color: #0D3585;
     margin-bottom: 10px;
     letter-spacing: 2px;
@@ -20,22 +20,22 @@ h3{
 
 /* main div */
 
-.container{
+.container {
     margin: 30px 20px;
 }
 
 /* Intro Styles */
 
-.name-text{
+.name-text {
     margin-bottom: 12px;
 }
 
-.name-text h1{
+.name-text h1 {
     color: #0D3585;
     font-size: 45px;
 }
 
-.name-text h4{
+.name-text h4 {
     color: #F97213;
     letter-spacing: 4.5px;
     margin-top: -5px;
@@ -44,32 +44,32 @@ h3{
 
 /* Contact Styles */
 
-.contact-details{
+.contact-details {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
 }
 
-.con-inner{
+.con-inner {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.con-inner i{
+.con-inner i {
     color: #F97213;
     padding: 10px;
-   
+
 }
 
-.con-inner p{
+.con-inner p {
     color: #0D3585;
 }
 
 
 /* Summary Styles */
 
-.summary p{
+.summary p {
     margin-bottom: 20px;
     font-size: 18px;
     letter-spacing: 1px;
@@ -78,144 +78,321 @@ h3{
 
 /* Education Styles */
 
-.edu-details{
+.edu-details {
     display: flex;
     justify-content: space-between;
     width: 40%;
     margin-bottom: 30px;
 }
 
-.duration h5{
+.duration h5 {
     color: #0D3585;
     margin-bottom: 10px;
     font-size: 16px;
 }
 
-.duration p{
+.duration p {
     color: black;
 }
 
-.timeline img{
+.timeline img {
     height: 60px;
 }
 
-.edu-place{
+.edu-place {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.edu-place h4{
+.edu-place h4 {
     color: #1655d4;
     letter-spacing: 1px;
 }
 
-.edu-place h5{
+.edu-place h5 {
     letter-spacing: 1px;
     color: #F97213;
 }
 
-.edu-place li{
+.edu-place li {
     letter-spacing: 1px;
 }
 
 
 /* Skills Styles */
 
-.tech-skills{
+.tech-skills {
     margin-bottom: 30px;
 }
 
-.skills{
+.skills {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.skills p{
+.skills p {
     border-bottom: 1px solid #F97213;
 }
 
 
 /* Projects Styles */
-.projects{
+.projects {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 30px;
 }
 
-.pro-points{
+.pro-points {
     margin: 20px;
 }
 
-.pro-points li{
+.pro-points li {
     margin-bottom: 5px;
     letter-spacing: 1px;
 }
 
-.github-img{
+.github-img {
     width: 220px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     transition: 0.4s;
 }
 
-.github-img:hover{
+.github-img:hover {
     transform: scale(1.1);
     margin-left: 10px;
 }
 
 
 /* CERTIFICATION & LEARNING */
-.certi-side{
+.certi-side {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.Certificate-one{
+
+.Certificate-one {
     width: 40%;
     margin: 10px;
     padding: 15px 30px;
 }
 
-.Certificate-two{
+.Certificate-two {
     width: 40%;
     margin: 10px;
     padding: 15px 30px;
 }
 
-.Certificate-one ul li{
+.Certificate-one ul li {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
 
-.Certificate-two ul li{
+.Certificate-two ul li {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
 
-.Certificate-two ul h6{
+.Certificate-two ul h6 {
     font-weight: 600;
     font-size: 18px;
 }
 
-.certi-inner{
+.certi-inner {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 10px;
 }
 
-.certi-inner h5{
+.certi-inner h5 {
     font-size: 20px;
     letter-spacing: 1px;
 }
 
-.certi-img{
+.certi-img {
     width: 100px;
     transition: 0.3s;
 }
 
-.certi-img:hover{
+.certi-img:hover {
     transform: scale(1.3);
+}
+
+
+/* responsive layout */
+/* small mobiles */
+@media (max-width: 414px) {
+    .name-text h1 {
+        font-size: 40px;
+    }
+
+    .name-text h4 {
+        font-size: 22px;
+    }
+
+    .contact-details {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .summary  {
+        margin-bottom: 40px;
+    }
+
+    .edu-details {
+        width: 100%;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .skills p {
+        font-size: 20px;
+    }
+
+    .projects {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 40px;
+    }
+
+    .github-img {
+        margin-top: 10px;
+        width: 200px;
+    }
+    
+
+    .certi-side {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .Certificate-one {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .Certificate-two {
+        width: 100%;
+        padding: 10px;
+    }
+    
+
+    
+}
+
+/* big mobiles */
+
+@media (max-width: 390px) {
+    .name-text h1 {
+        font-size: 40px;
+    }
+
+    .name-text h4 {
+        font-size: 22px;
+    }
+
+    .contact-details {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .edu-details {
+        width: 100%;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .skills p {
+        font-size: 20px;
+    }
+
+    .projects {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 40px;
+    }
+
+    .github-img {
+        margin-top: 10px;
+        width: 200px;
+    }
+    
+
+    .certi-side {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .Certificate-one {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .Certificate-two {
+        width: 100%;
+        padding: 10px;
+    }
+    
+
+}
+
+/* tablets */
+
+@media (max-width: 820px) {
+    .contact-details {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .con-inner p {
+        font-size: 20px;
+    }
+
+    .edu-details {
+        width: 80%;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .skills p {
+        font-size: 20px;
+    }
+
+    .Certificate-one {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .Certificate-two {
+        width: 100%;
+        padding: 10px;
+    }
+    
 }
